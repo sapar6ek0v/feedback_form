@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && cd client && npm i && npm run build",
+    "build": "cd client && npm i && npm run build",
     "build-ts": "tsc",
     "client": "npm run start --prefix ./client",
     "serve": "npm run build-ts && nodemon dist/index.js",
