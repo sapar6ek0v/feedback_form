@@ -36,7 +36,7 @@ The page will reload when you make changes.\
 You will also see any lint errors in the console.
 
 
-### `npm run build`
+### `npm run build-ts`
 
 Builds the `Server` app for production to the `dist` folder.\
 A file named `dist` should appear. And you can see the finished project!

@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cd client && npm i && npm run build",
+    "build-ts": "tsc",
     "client": "npm run start --prefix ./client",
-    "serve": "npm run build && nodemon dist/index.js",
+    "serve": "npm run build-ts && nodemon dist/index.js",
     "dev": "cross-env NODE_ENV=development concurrently \"npm run serve\" \"npm run client\"",
     "heroku-postbuild": "cd client && npm i && npm run build"
   },
