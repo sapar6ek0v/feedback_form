@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+Open in browser to view [url](https://feedback-form-virid.vercel.app/)
+
 ## Available Scripts
 
 ### `git clone https://github.com/sapar6ek0v/feedback_form.git`
